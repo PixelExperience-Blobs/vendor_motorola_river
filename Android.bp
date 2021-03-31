@@ -6,6 +6,17 @@ soong_namespace {
 }
 
 android_app_import {
+	name: "CameraGo",
+	owner: "motorola",
+	apk: "proprietary/system/priv-app/CameraGo/CameraGo.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
 	name: "HotwordEnrollmentOKGoogleCS47L35",
 	owner: "motorola",
 	apk: "proprietary/product/priv-app/HotwordEnrollmentOKGoogleCS47L35/HotwordEnrollmentOKGoogleCS47L35.apk",
