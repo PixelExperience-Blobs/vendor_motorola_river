@@ -337,7 +337,4 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/river/proprietary/vendor/lib64/vendor.egistec.hardware.fingerprint@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.egistec.hardware.fingerprint@2.0.so
 
 PRODUCT_PACKAGES += \
-    CameraGo \
-    HotwordEnrollmentOKGoogleCS47L35 \
-    HotwordEnrollmentTGoogleCS47L35 \
-    HotwordEnrollmentXGoogleCS47L35
+    CameraGo
