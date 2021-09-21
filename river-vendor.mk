@@ -6,8 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/motorola/river
 
 PRODUCT_COPY_FILES += \
-    vendor/motorola/river/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
-    vendor/motorola/river/proprietary/system_ext/framework/com.android.hotwordenrollment.common.util.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/com.android.hotwordenrollment.common.util.jar \
     vendor/motorola/river/proprietary/vendor/bin/charge_only_mode:$(TARGET_COPY_OUT_VENDOR)/bin/charge_only_mode \
     vendor/motorola/river/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets \
     vendor/motorola/river/proprietary/vendor/bin/hw/motorola.hardware.audio.adspd@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/motorola.hardware.audio.adspd@1.0-service \
@@ -357,5 +355,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/river/proprietary/vendor/lib64/vndk/libtinyalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vndk/libtinyalsa.so
 
 PRODUCT_PACKAGES += \
-    HotwordEnrollmentOKGoogleWM8280 \
-    HotwordEnrollmentXGoogleWM8280
+    HotwordEnrollmentOKGoogleCS47L35 \
+    HotwordEnrollmentTGoogleCS47L35 \
+    HotwordEnrollmentXGoogleCS47L35
